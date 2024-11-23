@@ -1,11 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
 p{
     color: hsl(201, 11%, 66%);
     font-size: 18px;
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: 300;
 }
+h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: hsl(210, 10%, 33%);
+}
 header{
     background-image: url('images/bg-header-desktop.png');
     height: 27vh;
     padding: 20px;
+}
+.three > img {
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+}
+.devices-image{
+    display: flex;
+    justify-content: center;
+}
+.devices-image > img {
+    height: 300px;
 }

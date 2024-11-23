@@ -1,0 +1,11 @@
+p{
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+}
+header{
+    background-image: url('images/bg-header-desktop.png');
+    height: 27vh;
+    padding: 20px;
+}

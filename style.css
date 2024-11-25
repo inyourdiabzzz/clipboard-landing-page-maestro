@@ -1,11 +1,24 @@
 *{
     box-sizing: border-box;
 }
+
+.main-container {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 20px;
+    border-radius: 15px; /* Round the corners for a softer feel */
+  }
+  
 .container{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    background-color: white; /* Ensure the background of the container is white */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+    transform: translateY(-10px); /* Push it up to make it pop out */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+    transform: scale(0.8);
 }
+
 
 p{
     color: hsl(201, 11%, 66%);
@@ -24,13 +37,14 @@ h2{
 header{
     background-image: url('images/bg-header-desktop.png');
     height: 27vh;
-    padding: 20px;
+    width: 100%;
+    padding: 0;
 }
 
 /*item one Styling*/
 .one h1 {
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 27px;
+    font-weight: 600;
     color: hsl(210, 10%, 33%);
 }
 
@@ -53,13 +67,29 @@ header{
     text-align: center;
 }
 
-/*item three image styling*/
-.three > img {
-    height: 300px;
-    float: left;
-    margin-right: 50px;
+/*ITEM THREE STYLING*/
+.three{
+    margin-top: 2rem;
 }
 
+/*paragraph spacing*/
+.paragraphs-three > p{
+    margin-bottom: 2rem;
+}
+
+/*item three image styling*/
+.three > img {
+    height: 350px;
+    float: left;
+    margin-right: 4rem;
+}
+
+/*ITEM FOUR STYLING*/
+/*centering elements inside the div*/
+.four{
+    margin-top: 4rem;
+    text-align: center;
+}
 
 /*item four image container styling*/
 .devices-image{
@@ -69,5 +99,5 @@ header{
 
 /*item four image styling*/
 .devices-image > img {
-    height: 300px;
+    height: 350px;
 }

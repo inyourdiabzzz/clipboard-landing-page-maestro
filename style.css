@@ -23,7 +23,7 @@ p{
     color: hsl(201, 11%, 66%);
     font-size: 18px;
     font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /*ALL h2 stylings*/
@@ -139,5 +139,16 @@ h3{
 }
 .seven > img {
     height: 30px;
+}
+
+/*item eight styling*/
+.button-ios{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+}
+
+.button-mac{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
 }
 
